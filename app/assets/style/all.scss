@@ -1,23 +1,10 @@
-$color: #00cc99;
+$red-main:    #AB1625;
+$blue-main:   #02071d; 
 
-.header {
-  height: 200px;
-  background-color: #00cc99;
-}
+@import 'font';
 
-.footer {
-  height: 200px;
-  background-color: #00cc99;
-}
+@import "functions";
+@import "./variables";
+@import "bootstrap";
 
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  display: flex;
-  transition: all 0.5s;
-  &:hover {
-    width: 200px;
-    background-color: $color;
-  }
-}
+@import './base';
