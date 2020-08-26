@@ -2,6 +2,8 @@ $red-main:    #AB1625;
 $blue-main:   #02071d; 
 
 @import 'font';
+@import './fontawesome/fontawesome';
+@import './fontawesome/brands';
 
 @import "functions";
 @import "./variables";
