@@ -297,12 +297,21 @@ block content
                             | 位於日本本州島紀伊半島西部的和歌山縣最著名的景點就是白濱海岸及三段壁，當清水大輔看到這片景色時，深深地被震撼到，他認為這種美且廣闊的景色，是自然的力量與智慧共同存在的結晶。
                         p.h6.list-unstyled(style="line-height:1.75em")
                             | 《智慧之海》開始由「早晨的海」揭開序幕，由豎笛模仿海鷗的叫聲，彷彿船隻在灑落的豔陽下緩緩駛出港口，中低音聲部將主旋律帶入，就像是船行駛在寬廣的大海一般。接著，中音薩克斯風演奏出優雅的獨奏片段，彷彿大海如母親般眷顧著我們的溫情。中段進入了三段壁的風景，低音的節奏與次中音聲部宏偉的旋律就像是海浪激烈的拍打著峭壁，而高音木管點綴的音群就像海浪與峭岸相互撞擊時所迸濺的浪花，兩者交錯充分顯示出這片海洋的美感。最後，清水大輔將主題再次導入，再次表達了「海洋智慧的力量」並以輝煌之勢結束。
-    .position-fixed.bg-white.px-0.h1.rounded.shadow-sm.mr-2(style="right:0;bottom:0;")
+    .position-fixed.bg-transparent.px-0.h1.mr-2(style="right:0;bottom:0;")
         a.mx-2.mt-2.mb-3(href="https://instagram.com/czjhawb?igshid=vthc5bi220x1" target="_blank")
             i.fab.fa-instagram
         br
         a.mx-2.mb-2(href="http://pic.sopili.net/l/facebook/page/697105830305569" target="_blank")
             i.fab.fa-facebook
+    .position-fixed.w-100.h-100.bg-white#loading--hook(style="left:0;top:0;z-index:1500;opacity:0.95")
+        .d-flex.flex-column.justify-content-center.align-items-center.text-center.w-100.h-100.position-relative
+            .spinner-grow.text-dark(role="status" style="width: 8rem; height: 8rem;")
+            p.h5.font-weight-bold.text-dark.position-absolute.mb-5.pb-5(style="bottom:0;left:0;right:0;")
+                | 讀取中，請稍等
+                br
+                span(style="font-size:0.875rem") 請記得追蹤校友團 IG & FB!
+            .position-absolute.m-auto(style="width: 8rem; height: 8rem;left:0;right:0;top:0;bottom:0;")
+                img.img-fluid(src="assets/images/czjh_logo_straight.png", alt="")
     footer.footer
         .container
             .row
